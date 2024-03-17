@@ -1,20 +1,31 @@
 const User = {
-    name: "hitesh",
-    email: "hitesh@lco.dev",
-    isAvtive: true
+    name: "hassan Ramdan",
+    email: "hr456@lco.dev",
+    isACtive: true
 }
 
 function createUser({name: string, isPaid: boolean}){}
 
-let newUser = {name: "hitesh", isPaid: false, email: "h@h.com"}
+let newUser = {name: "Ramdan", isPaid: false, email: "h@h.com"}
 
 createUser(newUser)
 
 
 
 function createCourse():{name: string, price: number}{
-    return {name: "reactjs", price: 399}
+    return {name: "reactjs", price: 869}
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 type userTwo = {
