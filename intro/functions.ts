@@ -11,7 +11,11 @@ let result:number
 result=addtwo(5)
 
 
+const heros = ["superman","spiderMan" , "batman"]
 
+heros.map((hero:string):string=>{
+    return `Hero ${hero}`;
+})
 
 
 
